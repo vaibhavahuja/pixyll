@@ -4,7 +4,7 @@ email:       vaibhavahuja@outlook.com
 author:      Vaibhav Ahuja
 description: "personal blog"
 baseurl:     ""
-url:         ""
+url:         "vaibhavahuja.github.io"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
