@@ -2,9 +2,9 @@
 title:       Vaibhav Ahuja
 email:       vaibhavahuja@outlook.com
 author:      Vaibhav Ahuja
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+description: "personal blog"
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         ""
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
@@ -20,8 +20,8 @@ google_tag_manager:
 bing_verification:
 
 # Optional features
-animated:             false
-show_related_posts:   false
+animated:             true
+show_related_posts:   true
 show_post_footers:    false
 show_social_icons:    false
 ajaxify_contact_form: false
@@ -69,7 +69,7 @@ telegram_username:
 vk_id:
 
 # Post sharing icons
-show_sharing_icons: false
+show_sharing_icons: true
 # Change to 'true' to enable individual icons
 share_facebook: false
 share_twitter: false
