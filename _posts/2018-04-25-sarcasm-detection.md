@@ -6,6 +6,8 @@ summary:    Can a machine tell if a sentence is sarcastic?
 categories: ml nlp
 ---
 
-Heyy
-I am currently writing this. Will add everything soon after I am done with my first draft.
-> Thanks for your time.
+I am on this currently. Will  update as soon as i finish this post.
+
+.
+
+.
