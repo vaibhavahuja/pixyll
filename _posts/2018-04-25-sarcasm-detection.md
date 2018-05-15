@@ -26,7 +26,7 @@ The main idea behind understanding sarcasm was that the first part of a sarcasti
 
 Taking an example: <span class="bg-dark-gray white" style="padding:2 px;"> Benzema is the best. </span> We see that BENZEMA is a negative sentiment<small>(trust me)</small> and "is the best" positive. Okay, not the best of the examples; so a better example will be something like this <span class="bg-dark-gray white" style="padding:2 px;"> I am so happy that I failed again. </span>. If we analyze the statement: positive sentiment will be _"happy"_ and the word with negative sentiment will be _"failed"_. They are in close proximity and hence we might say that this is a sarcastic sentence. We choose this as one of the features <small> (to be discussed later) </small> and let the classifier decide. This sentiment based approach is the key part of the method. The complete methodology can be somewhat visualized as below:
 
-_![method](https://lh6.googleusercontent.com/jheFHMVksLKERQzFhzbsjXjzIujJe6lJkp4LQht-_VTRbeZLvGB30OoXMYVDUEDCyzTGmcLqGyJ6qFQFXNBg=w1920-h948-rw)_
+_![method](https://i.imgur.com/wlByWoL.png)_
 
 I will be explaining the implementation part using the above image in detail in the next part. Thanks for reading this. Feel free to leave a comment down.
 
