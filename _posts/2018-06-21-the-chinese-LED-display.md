@@ -42,7 +42,7 @@ Now that we know how exactly the display works, we can get started on writing th
 
 ### The Connections
 
-The connections are pretty straight forward. It was pretty easy to find the pin configuration for the display online _(shown in the image below)_ , and as we are communicating through [SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus), we just need to configure the pins accordingly. Do keep the pin configuration of the STM8s discovery board handy. It is available [here](https://www.st.com/content/ccc/resource/technical/document/user_manual/30/f0/2f/7e/96/5a/44/80/CD00250600.pdf/files/CD00250600.pdf/jcr:content/translations/en.CD00250600.pdf).
+The connections are pretty straight forward. The pin configuration for the display was available online _(shown in the image below)_ , and as we are communicating through [SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus), we just need to configure the pins accordingly. Do keep the pin configuration of the STM8s discovery board handy. It is available [here](https://www.st.com/content/ccc/resource/technical/document/user_manual/30/f0/2f/7e/96/5a/44/80/CD00250600.pdf/files/CD00250600.pdf/jcr:content/translations/en.CD00250600.pdf).
 
 _![connections](/images/connections.png?raw=true)_
 
@@ -169,7 +169,8 @@ u8 digits2[] = {
 
 Then, just show each row accordingly. I would recommend the reader to play around these values in digits2[] and see how the display changes. It will help the reader greatly in order to understand the exact functioning of the board.
 
-One important thing to note is that in the P10 display, the LED burns on __0__ and is off on __1__
+One important thing to note is that in the P10 display, the LED burns on __0__ and is off on __1__.
+
 
 {% highlight c++ %}
 void showRow(int row){
