@@ -9,7 +9,7 @@ categories: blockchain
 
 <!-- # cryptocurrency explained.  -->
 
-Over the past few weeks I have been going through various blogs, research papers, youtube videos, books to read and gain knowledge about Cryptocurrency, which has been a pretty talked about topic recently. Unless you have been living under a rock, it is highly unlikely that you have never heard of _(bitcoin, blockchain, ethereum, mining)_ before. Through this post, I will try to explain how these technologies/currencies work and why were they created, and how can they change the way we do transactions now. 
+Over the past few days I have been going through various blogs, research papers, youtube videos, books to read and gain knowledge about Cryptocurrency, which has been a pretty talked about topic recently. Unless you have been living under a rock, it is highly unlikely that you have never heard of _(bitcoin, blockchain, ethereum, mining)_ before. Through this post, I will try to explain how these technologies/currencies work and why were they created, and how can they change the way we do transactions now. 
 
 To understand this Digital Currency, let us understand, how currency works and has been working so far. 
 Initially, we had [barter](https://en.wikipedia.org/wiki/Barter) system, which was replaced by money mainly because exchange is not always convenient and efficient. 
