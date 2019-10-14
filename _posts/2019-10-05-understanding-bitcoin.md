@@ -40,8 +40,6 @@ The catch here is that the ledger is accessible to all four of them, i.e anyone 
 Before I start with explaining what Digital Signatures are, I would like to mention Cryptographic Hashing. Hashing is a method that converts any form of data in a unique string of text. Typically the output of every hash function is a fixed length of string. Now what cryptographic hash functions are, are hash functions which cannot be reversed. 
 So cryptographic hash functions will take any input, no matter how big or small, and output a fixed length of string which is irreversible. It is practically impossible to determine what input caused that hash except hit and trial. Now coming to digital signatures, these are used to verify the identity of the person signing a message. Through digital signatures we can be sure that the person signing the message is actually the person writing the message. It mainly consists of _private key and public key._ Private key can be thought of your PIN card and public key as your A/C number. You keep the private key with yourself, but can give everyone your public key. Now to make a transaction, you write a message and encrypt that with your private key. And you send the hash message to the receiver. The receiver would see the hashed message, and verify if it was sent by you using the public key. The cryptographic hash function used is mainly SHA-256. The bit string generated is 256 digits long, i.e there can be 2<sup>256</sup> combinations. 2 <sup>256</sup> is an extremely large large number. 
 
-This image will make things more clear: 
-
 
 ![](/images/bitcoin2.png)
 
