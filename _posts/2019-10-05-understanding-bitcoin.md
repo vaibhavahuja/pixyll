@@ -41,7 +41,7 @@ Before I start with explaining what Digital Signatures are, I would like to ment
 So cryptographic hash functions will take any input, no matter how big or small, and output a fixed length of string which is irreversible. It is practically impossible to determine what input caused that hash except hit and trial. Now coming to digital signatures, these are used to verify the identity of the person signing a message. Through digital signatures we can be sure that the person signing the message is actually the person writing the message. It mainly consists of _private key and public key._ Private key can be thought of your PIN card and public key as your A/C number. You keep the private key with yourself, but can give everyone your public key. Now to make a transaction, you write a message and encrypt that with your private key. And you send the hash message to the receiver. The receiver would see the hashed message, and verify if it was sent by you using the public key. The cryptographic hash function used is mainly SHA-256. The bit string generated is 256 digits long, i.e there can be 2<sup>256</sup> combinations. 2 <sup>256</sup> is an extremely large large number. 
 
 This image will make things more clear: 
-![](images/bitcoin2.png)
+![](/images/bitcoin2.png)
 
 The functions would look something like this: 
 
@@ -69,7 +69,7 @@ A big problem with this system is that, what if D broadcasts that he has sent 50
 
 The bitcoin paper mainly said to trust the block/ledger with the most computational work being done _(proof of work)_. This ledger is mainly the blockchain. The below diagram will help you understand the chain structure of the ledger.
 
-![](images/bitcoin1.png) 
+![](/images/bitcoin1.png) 
 
 The proof of work involves scanning for a value that when hashed, such as with SHA-256 the hash begins with a number of `n zero bits`. 
 For our network, we implement the proof of work by incrementing a nonce in the block until a value is found that gives the blocks hash the required zero bits. Finding this number is called *mining*, and the people who do this are called *miners*. The paper also said to trust that chain with the most number of nodes, hence while updating their ledger, they also keep track of all other chains, and then eliminate the smaller chains as miners start working on the longest chain. 
