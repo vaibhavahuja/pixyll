@@ -4,6 +4,7 @@ title:      The P10 Display.
 date:       2018-06-21 12:31:19
 summary:    understanding how to drive any/every pixel of this low cost chinese display using the STM8s microcontroller.
 categories: stm8s
+permalink : /:year/:month/:day/:title
 ---
 In this post, we will be seeing on how can we use the STM8s microcontroller to drive the Chinese dot matrix display. In this process we will be understanding how exactly does the display work _(the schematics and work flow)_, and further will be interfacing the display with the [STM8s Discovery Board](https://www.st.com/en/evaluation-tools/stm8s-discovery.html) (_both the code and hardware will be discussed_.) Once we understand how the display works, writing the code should be a piece of cake then.
 

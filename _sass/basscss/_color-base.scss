@@ -2,12 +2,13 @@
 
 body {
   color: $dark-gray;
-  background-color: white;
+  background-color: #EEEEEE;
 }
 
 a {
   color: $blue;
   text-decoration: none;
+  background-image:none;
 }
 
 a:hover {

@@ -5,6 +5,9 @@
     
     {% assign page = site.pages | where: "path", path | first %}
     
+    <a href="/articles"> Articles </a>
+
+
     {% if page.title %}
         <a href="{{ page.url }}">{{ page.title }}</a>
     {% endif %}
