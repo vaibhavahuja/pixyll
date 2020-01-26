@@ -38,7 +38,7 @@ fb_page_id:
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-# disqus_shortname: 'https-vaibhavahuja-github-io'
+disqus_shortname: 'https-vaibhavahuja-github-io'
 
 # txtpen post comments
 # (leave blank to disable txtpen)
