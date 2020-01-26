@@ -3,7 +3,7 @@ layout:     post
 title:      Sarcastic or not? (1/2)
 date:       2018-04-25 11:21:29
 summary:    understanding the problem.
-categories: ml nlp
+categories: nlp
 ---
 
 > Benzema is the best player ever.
