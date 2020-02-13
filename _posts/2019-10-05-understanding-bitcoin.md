@@ -4,6 +4,9 @@ title:      Cryptocurrency explained
 date:       2019-10-05 12:31:19
 summary:    Understanding why were cryptocurrencies created and how bitcoin works. 
 categories: blockchain
+tags: [Blockchain]
+comment: true
+
 ---
 
 
@@ -90,4 +93,4 @@ The steps to run the network are as follows:
 
 
 
-I hope through this blog, I have been able to explain what cryptocurrencies are and how they are different from the currencies that we are using right now. This all is based on my understanding, and do let me know if I went wrong somewhere, I will appreciate it. Also, feel free to comment your doubts and suggestions. 
+Through this post, I hope you have a fair idea of how cryptocurrencies work. 

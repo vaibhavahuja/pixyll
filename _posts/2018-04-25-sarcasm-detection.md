@@ -4,12 +4,14 @@ title:      Sarcastic or not? (1/2)
 date:       2018-04-25 11:21:29
 summary:    understanding the problem.
 categories: nlp
+tags: [Machine Learning]
+comment: true
 ---
 
 > Benzema is the best player ever.
 
 This is 100% pure sarcasm. Okay, there is no such thing as _100% pure sarcasm_ but what there is are sarcastic and non sarcastic sentences.
-For example, as soon as you read the above statement about Benzema, you could decipher that this is a statement which is definitely not true and is somewhat ironic in a mocking way. Someone who watches football, and has game sense would know that this sentence was a satirical remark. Someone who does not watch football, might think of this statement as <span class = "red"> True. </span> Hence we can say, that sarcasm is relative and highly depends on the context.
+For example, as soon as you read the above statement about Benzema, you could decipher that this is a statement which is definitely not true and is somewhat ironic in a mocking way. Someone who watches football, and has game sense would know that this sentence was a satirical remark. Someone who does not watch football, might think of this statement as <span style="color: #1eb300;"> True. </span> Hence we can say, that sarcasm is relative and highly depends on the context.
 
 Try to understand the complexity of this problem, we as humans, find it really difficult to understand sarcasm, like we can only understand sarcasm once we have an idea about what is the context it is being used in, and the body language, the tone of the voice. If we closely observe someone saying a sarcastic sentence, the pitch of the voice varies. When English speakers remark sarcasm with the word  _"Thanks!"_, they often use a nasal tone. The nasal tone shows a connection between sarcasm and extreme disgust. It is like the speaker does not only want to remove the word from the mouth but also from the nose! So so many factors contributing to sarcasm makes it really really difficult to understand sarcasm for us, as humans, let alone computers.
 
@@ -24,10 +26,10 @@ Sarcasm has been a widely studied topic in linguistics. Due to the advancement i
 
 The main idea behind understanding sarcasm was that the first part of a sarcastic sentence would have more Positive sentiment as compared to the second part which would be inclined towards more Negative Sentiment. Or we can say that, if (+)ve Sentiment  and (-)ve Sentiment words appear in close proximity, the sentence might be sarcastic.
 
-Taking an example: <span class="bg-dark-gray white" style="padding:2 px;"> Benzema is the best. </span> We see that BENZEMA is a negative sentiment<small>(trust me)</small> and "is the best" positive. Okay, not the best of the examples; so a better example will be something like this <span class="bg-dark-gray white" style="padding:2 px;"> I am so happy that I failed again. </span>. If we analyze the statement: positive sentiment will be _"happy"_ and the word with negative sentiment will be _"failed"_. They are in close proximity and hence we might say that this is a sarcastic sentence. We choose this as one of the features <small> (to be discussed later) </small> and let the classifier decide. This sentiment based approach is the key part of the method. The complete methodology can be somewhat visualized as below:
+Taking an example: <span style="padding:2 px; color: #595959"> Benzema is the best. </span> We see that BENZEMA is a negative sentiment<small>(trust me)</small> and "is the best" positive. Okay, not the best of the examples; so a better example will be something like this <span style="padding:2 px; color: #595959;"> I am so happy that I failed again. </span>. If we analyze the statement: positive sentiment will be _"happy"_ and the word with negative sentiment will be _"failed"_. They are in close proximity and hence we might say that this is a sarcastic sentence. We choose this as one of the features <small> (to be discussed later) </small> and let the classifier decide. This sentiment based approach is the key part of the method. The complete methodology can be somewhat visualized as below:
 
 _![method](https://i.imgur.com/wlByWoL.png)_
 
-I will be explaining the implementation part using the above image in detail in the next part. Thanks for reading this. Feel free to leave a comment down.
+I will be explaining the implementation part using the above image in detail in the next part <small> will come really soon </small>. Thanks for reading this.
 
 Have a good day. :)
